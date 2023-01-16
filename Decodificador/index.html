@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Decodificador de texto</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewrport" content="width-device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+    <main class="main-container">
+      <header class="cabecalho">
+        <img src="img/logo.png" alt="Logo alura">
+        <h1>Mensagens Codificadas</h1>
+      </header>
+
+      <div class="container-input">
+        <div class="input">
+          <textarea id="input-texto" placeholder="Digite o seu texto"></textarea>
+          <p>Apenas letras minúsculas e sem acento!</p>
+        </div>
+
+        <div id="output">
+          <img src="img/outputimg.png" alt ="imagem do output">
+          <h2>Sua mensagem aparecerá aqui!</h2> 
+        </div>
+
+      </div>
+
+      <div class="buttons">
+        <div class="container-btn">
+          <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+          <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+      </div>
+
+    </main>
+
+    <script type="text/javascript" src="./back.js"></script>
+  </body>
+
+
+</html>
